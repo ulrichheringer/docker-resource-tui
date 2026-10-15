@@ -1,0 +1,15 @@
+[package]
+name = "docker-resource-tui"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+description = "Interactive terminal view of Docker container resource usage"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+bollard = "0.18.1"
+crossterm = "0.28"
+futures-util = "0.3"
+ratatui = "0.29"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
