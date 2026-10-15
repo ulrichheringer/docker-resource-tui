@@ -1,6 +1,6 @@
 # docker-resource-tui
 
-A keyboard-driven terminal view of Docker containers and their CPU, memory, and network usage. Metrics refresh every two seconds through the Docker Engine API.
+View Docker containers and their CPU, memory, and network usage in a terminal interface. Metrics refresh every two seconds, and you can select containers and sort the list.
 
 ## Install
 
