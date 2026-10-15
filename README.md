@@ -1,4 +1,7 @@
-# docker-resource-tui
+# Docker Resource TUI
+
+[![Language](https://img.shields.io/github/languages/top/ulrichheringer/docker-resource-tui?logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![License: MIT](https://img.shields.io/github/license/ulrichheringer/docker-resource-tui)](LICENSE)
 
 View Docker containers and their CPU, memory, and network usage in a terminal interface. Metrics refresh every two seconds, and you can select containers and sort the list.
 
